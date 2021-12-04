@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan-Form-PPDB.html</title>
+</head>
+<body>
+	<form method="POST" action="hasil.php">
+		<table>
+			<h1><center>FORMULIR PPDB JALUR ZONASI TAHUN 2021/2022</center></h1>
+			<font face="Times New Roman" size="5">
+			<center><table border="0">
+			</font>
+			<tr>
+				<td><b>INFO PENDAFTARAN<b></td>
+			</tr>
+			<tr>
+				<td>NISN</td>
+				<td>:</td>
+				<td><input type="text" name="NISN" size="30"></td>
+			</tr>
+			<tr>
+				<td>Asal Sekolah</td>
+				<td>:</td>
+				<td><input type="text" name="Asal Sekolah" size="30"></td>
+			</tr>
+			<tr>
+				<td>Tahun Lulus</td>
+				<td>:</td>
+				<td><input type="text" name="Tahun Lulus" size="10"></td>
+			</tr>
+			<tr>
+				<td><b>DATA CALON PESERTA<b></td>
+			</tr>
+			<tr>
+				<td>Nama Lengkap</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>NIK</td>
+				<td>:</td>
+				<td><input type="text" name="nik" size="30"></td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir</td>
+				<td>:</td>
+				<td><input type="text" name="tempat" size="30"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td>:</td>
+				<td><input type="date" name="tanggal" size="30"></td>
+			</tr>
+			<tr>
+				<td>Jenis kelamin</td>
+				<td>:</td>
+				<td><input type="radio" name="opsi" value="Laki-Laki">Laki-Laki
+				<input type="radio" name="opsi" value="Perempuan">Perempuan</td>
+			<tr>
+				<td>Agama</td>
+				<td>:</td>
+				<td><input type="checkbox" name="Agama" value="Islam">Islam
+				<input type="checkbox" name="Agama" value="Kristen">Kristen
+				<input type="checkbox" name="Agama" value="Katolik">Katolik
+				<input type="checkbox" name="Agama" value="Budha">Budha
+				<input type="checkbox" name="Agama" value="Hindu">Hindu
+				<input type="checkbox" name="Agama" value="Lainnya">Lainnya</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td><textarea cols="30" rows="4"></textarea></td>
+			</tr>
+			<tr>
+				<td>Email Aktif</td>
+				<td>:</td>
+				<td><input type="text" name="Email Aktif" size="30"></td>
+			</tr>
+			<tr>
+				<td><b>DATA ORANG TUA<b></td>
+			</tr>
+			<tr>
+				<td>Nomor Kartu Keluarga</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>Nama Ayah</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>:</td>
+				<td><input type="checkbox" name="Agama" value="Islam">Islam
+				<input type="checkbox" name="Agama" value="Kristen">Kristen
+				<input type="checkbox" name="Agama" value="Katolik">Katolik
+				<input type="checkbox" name="Agama" value="Budha">Budha
+				<input type="checkbox" name="Agama" value="Hindu">Hindu
+				<input type="checkbox" name="Agama" value="Lainnya">Lainnya</td>
+			</tr>
+			<tr>
+				<td>Pekerjaan</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>Nama Ibu Kandung</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>:</td>
+				<td><input type="checkbox" name="Agama" value="Islam">Islam
+				<input type="checkbox" name="Agama" value="Kristen">Kristen
+				<input type="checkbox" name="Agama" value="Katolik">Katolik
+				<input type="checkbox" name="Agama" value="Budha">Budha
+				<input type="checkbox" name="Agama" value="Hindu">Hindu
+				<input type="checkbox" name="Agama" value="Lainnya">Lainnya</td>
+			</tr>
+			<tr>
+				<td>Pekerjaan</td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="30"></td>
+			</tr>
+			<tr>
+				<td>Alamat Orang Tua</td>
+				<td>:</td>
+				<td><textarea cols="30" rows="4"></textarea></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><b><form method="post" action="proses.php" enctype="multipart/form-data">
+				Foto Ijazah Tampak Depan : <input type="file" name="Foto Ijazah Tampak Depan">
+				<input type="submit" name="tombol" value="Simpan"></form><b></td>
+			</tr>
+			<tr>
+				<td><b><form method="post" action="proses.php" enctype="multipart/form-data">
+				Foto Ijazah Tampak Belakang : <input type="file" name="Foto Ijazah Tampak Belakang">
+				<input type="submit" name="tombol" value="Simpan"></form><b></td>
+			</tr>
+			<tr>
+				<td><b><form method="post" action="proses.php" enctype="multipart/form-data">
+				Foto Akte Kelahiran : <input type="file" name="Foto Akte Kelahiran">
+				<input type="submit" name="tombol" value="Simpan"></form><b></td>
+			</tr>
+			<tr>
+				<td><b><form method="post" action="proses.php" enctype="multipart/form-data">
+				Foto Kartu Keluarga : <input type="file" name="Foto Kartu Keluarga">
+				<input type="submit" name="tombol" value="Simpan"></form><b></td>
+			</tr>
+			<tr>
+				<td><button>Kirim</button></td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+</html>
